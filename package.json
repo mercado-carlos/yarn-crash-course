@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "removeModules": "rm -rf node_modules/",
+    "installModules": "yarn install"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
